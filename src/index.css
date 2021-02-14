@@ -1,0 +1,50 @@
+/*COLOR VARIABLES*/
+:root{
+  --primaryBrightBlue:hsl(220, 98%, 61%);
+  --backgroundGradient:linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+  --veryLightGray:hsl(0, 0%, 98%);
+  --veryLightGrayishBlue:hsl(236, 33%, 92%);
+  --lightGrayishBlue:hsl(233, 11%, 84%);
+  --darkGrayishBlue:hsl(236, 9%, 61%);
+  --veryDarkGrayishBlue:hsl(235, 19%, 35%);
+
+  --veryDarkBlue:hsl(235, 21%, 11%);
+  --veryDarkDesaturatedBlue:hsl(235, 24%, 19%);
+  --lightGrayishBlue:hsl(234, 39%, 85%);
+  --hoverLightGrayishBlue:hsl(236, 33%, 92%);
+  --darkGrayishBlue:hsl(234, 11%, 52%);
+  --veryDarkGrayishBlue:hsl(233, 14%, 35%);
+  --veryVeryDarkGrayishBlue:hsl(237, 14%, 26%);
+}
+
+
+
+body {
+  margin:0px;
+  font-family: 'Josefin', sans-serif;
+  font-size:18px;
+  overflow-x:hidden;
+
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#root{
+  font-family: 'Comfortaa', cursive;
+  font-size:18px;
+  
+}
+
+#root h1{
+  font-size:50px;
+  font-weight: 700;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
